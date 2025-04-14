@@ -1,5 +1,5 @@
 # Oxford Flowers – Deep Learning Models (CNN, VAE, UNet)
-This repository showcases deep learning models built using PyTorch for the Oxford Flowers 102 dataset. It includes:
+This repository showcases deep learning models built using PyTorch for the Oxford Flowers dataset. It includes:
 
 - CNN classifiers (coarse and fine grained)
 - Variational Autoencoder (VAE) for image reconstruction
@@ -17,9 +17,4 @@ Note: `UNet_110.pth` is not included due to GitHub’s file size limits (>100MB)
 # Installation Requirements
 pip install torch torchvision numpy tqdm seaborn scikit-learn
 
-For more details of model architecture and training/validation/testing, a technical report is uploaded. 
-
-
-
-
-
+*For more details of model architecture and training/validation/testing, a technical report is uploaded. 
