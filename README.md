@@ -16,10 +16,10 @@ This repository showcases deep learning models built using PyTorch for the Oxfor
 
 Note: `UNet_110.pth` is not included due to GitHub’s file size limits (>100MB). You can retrain from scratch using the provided scripts.
 
+*For more details of model architecture and training/validation/testing, a technical report is uploaded. 
+
 # Installation Requirements
 pip install torch torchvision numpy tqdm seaborn scikit-learn
-
-*For more details of model architecture and training/validation/testing, a technical report is uploaded. 
 
 # Attribution
 The dataset loading script (`load_oxford_flowers102.py`) was written by Dr. Lech Szymanski, COSC420, University of Otago.  
