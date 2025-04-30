@@ -20,3 +20,8 @@ Note: `UNet_110.pth` is not included due to GitHub’s file size limits (>100MB)
 pip install torch torchvision numpy tqdm seaborn scikit-learn
 
 *For more details of model architecture and training/validation/testing, a technical report is uploaded. 
+
+# Attribution
+The dataset loading script (`load_oxford_flowers102.py`) was written by Dr. Lech Szymanski, COSC420, University of Otago.  
+This script provides PyTorch-compatible datasets with predefined train, validation, and test splits for both coarse (10-class) and fine (102-class) label types. 
+It has been used with permission for this project.
